@@ -1,0 +1,89 @@
+/* Set Caracters */
+@charset "UTF-8";
+
+/* Import "Playfair Display" | Normal & Bold */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+/* Universal Style */
+* {
+    box-sizing: border-box;
+}
+
+/* Set Variables for Colors */
+:root {
+    --whiteGrey: #F5F5F5;
+    --lightGrey: #D9D9D9;
+    --darkgrey: #9A9A9A;
+    --lightOrange: #fda374;
+    --background: #111111;
+    --font: 'Playfair Display', serif;
+}
+
+/* Reset */
+
+body {
+    font-family: var(--font);
+    /*background-color: var(--background)*/
+    background-color: var(--background);
+}
+
+body,
+h1,
+h2,
+p,
+button,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+p,
+a {
+    line-height: 100%;
+}
+
+a {
+    color: var(--darkgrey);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--whiteGrey);
+}
+
+/* ==================== END */
+
+/* Default Class */
+
+.fixed {
+    position: fixed;
+    top: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.max-width {
+    max-width: 1024px;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.background {
+    background-color: var(--background);
+}
+
+/* ==================== END */

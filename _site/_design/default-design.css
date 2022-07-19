@@ -1,0 +1,81 @@
+@import url("preconfig.css");
+
+
+
+/* Menu Fixed in Top */
+
+.menu {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.menu li:nth-child(2) a {
+    color: var(--whiteGrey);
+    font-size: 2.50rem;
+}
+
+.menu li:nth-child(2):hover a {
+    color: var(--lightOrange);
+}
+
+
+/* ==================== END */
+
+/* Content */
+
+.container {
+    /* 4.5rem it's menu clearance */
+    padding-top: 5rem;
+}
+
+/* Header Group */
+
+#banner {
+    margin: 3.75rem 0;
+}
+
+#brand {
+    font-size: 7.5rem;
+    background-image: linear-gradient(to right, #d9d9d9, #c9c9c9, #b9b9b9, #a9a9a9, #9a9a9a);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+#slogan .linear-gradient {
+    font-size: 4rem;
+    background-image: linear-gradient(to bottom, var(--lightGrey), rgba(154, 154, 154, 0));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* About Us */
+
+.about-us {
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.image picture img {
+    border-radius: 24px;
+}
+
+.text > h2 {
+    font-size: 4rem;
+    color: var(--whiteGrey);
+}
+
+.text > p {
+    font-size: 1.75rem;
+    color: var(--whiteGrey);
+    line-height: 150%;
+    margin-top: 20px;
+}
+

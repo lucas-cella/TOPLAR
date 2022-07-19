@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOPLAR</title>
+
+    <!-- Default Color for Mobile Devices -->
+    <meta name="theme-color" content="#111111">
+    <!-- Default Design -->
+    <link rel="stylesheet" href="_design/default-design.css">
+    <!-- Preconfig -->
+    <link rel="stylesheet" href="_design/preconfig.css">
+    <link rel="stylesheet" href="_design/responsive.css">
+    <!-- JS for Mobile -->
+    <script src="_js/script.js"></script>
+</head>
+<body>
+    <nav id="nav" class="fixed w100 background">
+        <button id="btn-mobile">Menu</button>
+        <ul class="menu max-width w100 margin-auto">
+            <li>
+                <a href="#">Portfólio</a>
+            </li>
+            <li>
+                <a href="#">Contrate-me</a>
+            </li>
+            <li>
+                <a href="#">Skills</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container max-width w100 margin-auto">
+        <header id="banner">
+            <h1 id="brand">TOPLAR</h1>
+            <h2 id="slogan">
+                <span class="linear-gradient">Construindo</span>
+                <span class="linear-gradient">sonhos</span>
+            </h2>
+        </header>
+        <section class="about-us flex w100">
+            <div class="image">
+                <picture>
+                    <source media="(max-width: 320px)" srcset="_images/about-us-mini.jpg" type="image/jpeg">
+                    <source media="(max-width: 425px)" srcset="_images/about-us-mobile.jpg" type="image/jpeg">
+                    <img src="_images/about-us-desktop.jpg"
+                         alt="Um prédio de escritório em uma avenida qualquer."
+                         title="Um prédio de escritório em uma avenida qualquer.">
+                </picture>
+            </div>
+            <div class="text">
+                <h2>Quem sou eu?</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo molestiae illo perferendis velit in
+                    reprehenderit autem inventore minus eum. Impedit ex autem iste temporibus aliquid odit quos cupiditate quo
+                    nisi!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo molestiae illo perferendis velit in
+                    reprehenderit autem inventore minus eum. Impedit ex autem iste temporibus aliquid odit quos cupiditate quo
+                    nisi!
+                </p>
+            </div>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <dl>
+                <dt>Projeto</dt>
+                <dd>
+                    Toda e qualquer obra começa no projeto definido pelo arquiteto/engenheiro.
+                    Muitos pedreiros possuem dificuldades, ou, até mesmo, não sabem ler um projeto.
+                    Isso acaba por comprometer a obra, seja no tempo de execução, estética final, ou, na sua segurança.
+                </dd>
+            </dl>
+        </section>
+    </div>
+</body>
+</html>

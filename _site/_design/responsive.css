@@ -1,0 +1,78 @@
+@import url("preconfig.css");
+
+#btn-mobile {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .max-width {
+        max-width: 80%;
+    }
+
+    #brand {
+        font-size: 5.5rem;
+    }
+
+    #slogan .linear-gradient {
+        font-size: 2.25rem;
+    }
+
+    .about-us {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 600px) {
+    #btn-mobile {
+        display: block;
+        margin: 1rem auto;
+        background: none;
+        border: none;
+        font-family: var(--font);
+        font-size: 2rem;
+        color: var(--whiteGrey);
+    }
+
+    .menu {
+        max-height: none;
+        width: 0;
+        height: 0;
+        padding: 0;
+        visibility: hidden;
+        /* Animation */
+        transition: 0.2s;
+        /* Position Safe in the Axis Y */
+        z-index: 1;
+        /* Animation Correction */
+        overflow-y: hidden;
+    }
+
+    #nav.active .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+        height: calc(100vh - 4rem);
+        visibility: visible;
+    }
+
+    @media (max-width: 425px) {
+        #brand {
+            font-size: 4.5rem;
+        }
+    
+        #slogan .linear-gradient {
+            font-size: 2rem;
+        }
+    }
+
+    @media (max-width: 320px) {
+        #brand {
+            font-size: 3.5rem;
+        }
+    
+        #slogan .linear-gradient {
+            font-size: 1.75rem;
+        }
+    }
+}
