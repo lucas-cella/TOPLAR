@@ -13,7 +13,7 @@
 :root {
     --whiteGrey: #F5F5F5;
     --lightGrey: #D9D9D9;
-    --darkgrey: #9A9A9A;
+    --darkGrey: #9A9A9A;
     --lightOrange: #fda374;
     --background: #111111;
     --font: 'Playfair Display', serif;
@@ -32,7 +32,11 @@ h1,
 h2,
 p,
 button,
-ul {
+dl,
+dt,
+dd,
+ul,
+li {
     margin: 0;
     padding: 0;
 }
@@ -49,7 +53,7 @@ a {
 }
 
 a {
-    color: var(--darkgrey);
+    color: var(--darkGrey);
     text-decoration: none;
 }
 
@@ -84,6 +88,15 @@ a:hover {
 
 .background {
     background-color: var(--background);
+}
+
+.title-of-skills,
+.title-of-portfolio {
+    font-size: 4rem;
+    color: var(--whiteGrey);
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
 
 /* ==================== END */

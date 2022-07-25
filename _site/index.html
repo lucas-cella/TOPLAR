@@ -40,39 +40,63 @@
             </h2>
         </header>
         <section class="about-us flex w100">
-            <div class="image">
+            <div>
                 <picture>
                     <source media="(max-width: 320px)" srcset="_images/about-us-mini.jpg" type="image/jpeg">
                     <source media="(max-width: 425px)" srcset="_images/about-us-mobile.jpg" type="image/jpeg">
                     <img src="_images/about-us-desktop.jpg"
                          alt="Um prédio de escritório em uma avenida qualquer."
-                         title="Um prédio de escritório em uma avenida qualquer.">
+                         title="Um prédio de escritório em uma avenida qualquer."
+                         id="bricklayer">
                 </picture>
             </div>
-            <div class="text">
-                <h2>Quem sou eu?</h2>
-                <p>
+            <div>
+                <h2 class="title-of-about-us">Quem sou eu?</h2>
+                <p class="paragraph">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo molestiae illo perferendis velit in
                     reprehenderit autem inventore minus eum. Impedit ex autem iste temporibus aliquid odit quos cupiditate quo
                     nisi!
                 </p>
-                <p>
+                <p class="paragraph">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo molestiae illo perferendis velit in
                     reprehenderit autem inventore minus eum. Impedit ex autem iste temporibus aliquid odit quos cupiditate quo
                     nisi!
                 </p>
             </div>
         </section>
-        <section class="skills">
-            <h2>Skills</h2>
+        <main class="skills w100">
+            <h1  class="title-of-skills">Skills</h1>
             <dl>
-                <dt>Projeto</dt>
-                <dd>
+                <dt class="term">Projeto</dt>
+                <dd class="description">
                     Toda e qualquer obra começa no projeto definido pelo arquiteto/engenheiro.
                     Muitos pedreiros possuem dificuldades, ou, até mesmo, não sabem ler um projeto.
                     Isso acaba por comprometer a obra, seja no tempo de execução, estética final, ou, na sua segurança.
                 </dd>
+                <dt class="term">Estrutura</dt>
+                <dd class="description">
+                    A estrutura é de longe, a parte mais importante no quesito segurança.
+                    A estrutura é compreendida em 4 (quatro) partes, tais quais: Fundação, Pilares (ou colunas), Vigas e Lajes.
+                    <br>
+                    Essa formação funciona em cascata, de modo que, se a Fundação não estiver boa, também haverá problemas nos pilares, vigas e consequentemente (se houver) lajes.
+                </dd>
+                <dt class="term">Alvenaria</dt>
+                <dd class="description">
+                    Ninguém quer ter uma parede ondulada ou fora de prumo, correto?<br>
+                    Tijolo por tijolo, cada um em seu lugar, com uniformidade e consistência, e por fim, um bom reboco, bem “reguado” e “desempenado”, entregando-lhe, o que você merece.
+                </dd>
+                <dt class="term">Cobertura</dt>
+                <dd class="description">
+                    Nada pior que goteira dentro de casa, ou tesoura cedendo o peso posto em cima. Trabalhamos com vários tipos de telhados, formas e quedas d’água. Ou se preferir, uma laje para aproveitar o vento fresco do verão :).
+                </dd>
+                <dt class="term">Acabamento</dt>
+                <dd class="description">
+                    Essa é uma fase que (costuma) dar muita dor de cabeça para o dono do imóvel. Sabendo disso, nós damos um “toque” a mais nessa parte; Ninguém quer azulejo, cerâmica ou porcelanato fora do nível, ou com aqueles horríveis caminhos de rato entre eles. Apenas confie em nós!
+                </dd>
             </dl>
+        </main>
+        <section class="portfolio w100">
+            <h2 class="title-of-portfolio">Portfólio</h2>
         </section>
     </div>
 </body>

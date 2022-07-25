@@ -63,19 +63,36 @@
     gap: 2rem;
 }
 
-.image picture img {
+#bricklayer {
     border-radius: 24px;
 }
 
-.text > h2 {
+.title-of-about-us {
     font-size: 4rem;
     color: var(--whiteGrey);
 }
 
-.text > p {
-    font-size: 1.75rem;
+.paragraph {
+    font-size: 1.5rem;
     color: var(--whiteGrey);
     line-height: 150%;
     margin-top: 20px;
 }
 
+/* Skills */
+
+.term {
+    font-size: 3rem;
+    font-weight: normal;
+    color: var(--lightOrange);
+}
+
+.description {
+    font-size: 1.5rem;
+    color: var(--whiteGrey);
+    line-height: 150%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid var(--lightGrey);
+}
