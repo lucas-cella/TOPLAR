@@ -105,12 +105,12 @@
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    margin: 0 auto;
+    margin-top: 40px;
 }
 
 .image {
-    background-color: var(--lightGrey);
-    border: 2px solid var(--darkGrey);
+    max-width: 400px;
+    border-top: 4px solid var(--darkGrey);
 }
 
 .work-image-1 {
